@@ -1,0 +1,1 @@
+javascript:(()=>{const styleId='hideCursorStyle';let styleElement=document.getElementById(styleId);if(styleElement){styleElement.remove();return;}styleElement=document.createElement('style');styleElement.id=styleId;styleElement.textContent='*{cursor:none!important}';document.head.appendChild(styleElement);})();
